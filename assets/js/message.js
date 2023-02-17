@@ -1,7 +1,7 @@
 const sendButton = document.querySelector("[form-btn]");
 sendButton.addEventListener("click", function () {
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://discord.com/api/webhooks/1076155731776127007/4z8O2pMgDkSNUZI4HZuXu_aOEObhEkzbVe2-I4CcgaLt6tMZPDH1k67PAqvjRyaQrkRo");
+    xhr.open("POST", "https://discord.com/api/webhooks/1076181407887532174/1jv7fIzECrOVti2SSeMISKWgnM71ezVxYNK7VthKQgB2d9Fs0HtM_bAMMew7iC1Klq2Y");
     const json = JSON.stringify({
       "content": null,
       "embeds": [
