@@ -12,16 +12,16 @@ sendButton.addEventListener("click", function () {
           "fields": [
             {
               "name": "Full Name",
-              "value": document.querySelector("body > main > div > article.contact.active > section > form > div > input:nth-child(1)").value
+              "value": document.querySelector("body > main > div > article.contact > section > form > div > label:nth-child(1) > input").value
             },
             {
               "name": "Email",
-              "value": document.querySelector("body > main > div > article.contact.active > section > form > div > input:nth-child(2)").value,
+              "value": document.querySelector("body > main > div > article.contact > section > form > div > label:nth-child(2) > input").value,
               "inline": true
             },
             {
               "name": "Title",
-              "value": document.querySelector("body > main > div > article.contact.active > section > form > div > input:nth-child(3)").value
+              "value": document.querySelector("body > main > div > article.contact > section > form > div > label:nth-child(3) > input").value
             }
           ],
           "author": {
