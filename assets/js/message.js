@@ -8,7 +8,7 @@ sendButton.addEventListener("click", function () {
         {
           "title": "New Contact form",
           "color": 16243475,
-          "description": document.querySelector("body > main > div > article.contact.active > section > form > textarea").value,
+          "description": document.querySelector("body > main > div > article.contact.active > section > form > label > textarea").value,
           "fields": [
             {
               "name": "Full Name",
