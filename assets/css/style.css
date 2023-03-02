@@ -1551,3 +1551,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 .font-lalezar {
   font-family: Lalezar, serif;
 }
+
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazirmatn-Bold.ttf);
+}
+
+.font-vazir {
+  font-family: Vazir, serif;
+}
+
