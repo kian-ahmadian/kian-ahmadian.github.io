@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="1.5; URL=https://python-bale-bot.github.io" />
+    <meta http-equiv="refresh" content="0; URL=https://python-bale-bot.github.io" />
     <link rel="icon" href="assets/images/bale.png" type="image/x-icon"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
     <meta name="theme-color" content="#000000" />
@@ -11,23 +11,38 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="python-bale-bot" />
     <meta property="og:description" content="An API wrapper for Bale written in Python." />
-    <meta property="og:image" content="https://kian-ahmadian.github.io/assets/images/bale.png" />
-    <meta property="og:url" content="https://kian-ahmadian.github.io/python-bale-bot" />
+    <meta property="og:image" content="https://kian-ahmadian.ir/assets/images/bale.png" />
+    <meta property="og:url" content="https://kian-ahmadian.ir/python-bale-bot" />
     <meta name="twitter:title" content="python-bale-bot">
     <meta name="twitter:description" content="An API wrapper for Bale written in Python.">
-    <meta name="twitter:image" content="https://kian-ahmadian.github.io/assets/images/bale.png">
-    <link rel="apple-touch-icon" href="https://kian-ahmadian.github.io/assets/images/bale.png" />
+    <meta name="twitter:image" content="https://kian-ahmadian.ir/assets/images/bale.png">
+    <link rel="apple-touch-icon" href="https://kian-ahmadian.ir/assets/images/bale.png" />
     <title>python-bale-bot: A project by Kian Ahmadian</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/python-bale-bot.css" />
 </head>
 
 <body>
-    <div style="text-align: center;margin-top: 20px;color: #05ffe4;font-size: 20px;">
+    <div id="redirect" style="text-align: center;margin-top: 50px;color: #05ffe4;font-size: 20px;">
         <p class="font-lalezar">This page moved soon...</p>
         <br/>
         <p class="font-vazir">...شما در حال انتقال به صفحه مورد نظر هستید</p>
     </div>
+
+    <div id="not-redirect" style="display: none;text-align: center;margin-top: 50px;font-size: 20px;color: #ff1361">
+        <p class="font-lalezar">You have not yet been redirected to the desired page, click <a style="display: inline-block" href="https://python-bale-bot.ir">here</a> to be redirected..</p>
+        <br/>
+        <p class="font-vazir">به نظر می رسد هنوز منتقل نشده اید با کلیک بر روی <a style="display: inline-block" href="https://python-bale-bot.ir">اینجا</a> منتقل شوید</p>
+    </div>
+
+    <script>
+        setInterval(function(){
+            const redirect = document.getElementById("redirect");
+            redirect.style.display = "none";
+            const not_redirect = document.getElementById("not-redirect");
+            not_redirect.style.display = "block";
+        }, 5000)
+    </script>
 </body>
 
 </html>
