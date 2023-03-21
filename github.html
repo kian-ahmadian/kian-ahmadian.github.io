@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; URL=https://github.com/kian-ahmadian/" />
+    <link rel="icon" href="assets/images/logo192.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta name="theme-color" content="#000000" />
+    <meta property="og:image" content="https://kian-ahmadian.ir/assets/images/logo192.png" />
+    <meta property="og:url" content="https://kian-ahmadian.ir/github" />
+    <link rel="apple-touch-icon" href="https://kian-ahmadian.ir/assets/images/logo192.png" />
+    <title>Redirecting</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div id="redirect" style="text-align: center;margin-top: 50px;color: #05ffe4;font-size: 20px;">
+        <p class="font-lalezar">This page moved soon...</p>
+        <br/>
+        <p class="font-vazir">...شما در حال انتقال به صفحه مورد نظر هستید</p>
+    </div>
+
+    <div id="not-redirect" style="display: none;text-align: center;margin-top: 50px;font-size: 20px;color: #ff1361">
+        <p class="font-lalezar">You have not yet been redirected to the desired page, click <a style="display: inline-block" href="https://github.com/kian-ahmadian">here</a> to be redirected..</p>
+        <br/>
+        <p class="font-vazir">به نظر می رسد هنوز منتقل نشده اید با کلیک بر روی <a style="display: inline-block" href="https://github.com/kian-ahmadian">اینجا</a> منتقل شوید</p>
+    </div>
+
+    <script>
+        setInterval(function(){
+            const redirect = document.getElementById("redirect");
+            redirect.style.display = "none";
+            const not_redirect = document.getElementById("not-redirect");
+            not_redirect.style.display = "block";
+        }, 5000)
+    </script>
+</body>
+
+</html>
