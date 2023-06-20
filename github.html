@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; URL=https://github.com/kian-ahmadian/" />
     <link rel="icon" href="assets/images/logo192.png" type="image/x-icon"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
     <meta name="theme-color" content="#000000" />
@@ -18,17 +17,10 @@
     </div>
 
     <div id="not-redirect" style="display: none;text-align: center;margin-top: 50px;font-size: 20px;color: #ff1361">
-        <p class="font-lalezar">You have not yet been redirected to the desired page, click <a style="display: inline-block" href="https://github.com/kian-ahmadian">here</a> to be redirected..</p>
+        <p class="font-lalezar">You have not yet been redirected to the desired page, click <a id="export-url" style="display: inline-block" href="https://github.com/kian-ahmadian">here</a> to be redirected..</p>
     </div>
 
-    <script>
-        setInterval(function(){
-            const redirect = document.getElementById("redirect");
-            redirect.style.display = "none";
-            const not_redirect = document.getElementById("not-redirect");
-            not_redirect.style.display = "block";
-        }, 5000)
-    </script>
+    <script src="assets/js/github.js"></script>
 </body>
 
 </html>
