@@ -1,5 +1,6 @@
 const sendButton = document.querySelector("[form-btn]");
 sendButton.addEventListener("click", function () {
+    sendButton.innerText = "Loading..."
     const xhr = new XMLHttpRequest();
     xhr.open("POST", "https://discord.com/api/webhooks/1076181407887532174/1jv7fIzECrOVti2SSeMISKWgnM71ezVxYNK7VthKQgB2d9Fs0HtM_bAMMew7iC1Klq2Y");
     const json = JSON.stringify({
@@ -26,7 +27,7 @@ sendButton.addEventListener("click", function () {
           ],
           "author": {
             "name": "GitHub",
-            "url": "https://kian-ahmadian.github.io"
+            "url": "https://kian-ahmadian.ir"
           },
           "footer": {
             "text": "Developed by Kian Ahmadian"
