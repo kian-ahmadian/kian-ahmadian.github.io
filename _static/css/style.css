@@ -12,8 +12,8 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+    hsl(140, 100%, 51%) 0%, 
+    hsl(140, 100%, 30%) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
@@ -27,22 +27,22 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsl(140, 100%, 51%), 
+    hsl(140, 100%, 68%)
   );
 
-  --jet: hsl(0, 0%, 22%);
+  --jet: hsl(0, 2%, 53%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(140, 74%, 64%);
+  --vegas-gold: hsla(140, 51%, 58%, 0.822);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --bittersweet-shimmer: hsl(0, 71%, 63%);
   --ff-poppins: 'Poppins', sans-serif;
   --fs-1: 24px;
   --fs-2: 18px;
@@ -1089,6 +1089,10 @@ main {
 .form-input::placeholder { font-weight: var(--fw-500); }
 
 .form-input:focus { border-color: var(--orange-yellow-crayola); }
+
+input.form-input {
+  margin-bottom: 25px;
+}
 
 textarea.form-input {
   min-height: 100px;

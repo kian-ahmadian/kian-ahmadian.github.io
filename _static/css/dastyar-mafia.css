@@ -1,0 +1,35 @@
+.title {
+    direction: rtl;
+    font-size: 50px;
+}
+
+.short-desc {
+    direction: rtl;
+    font-size: 20px;
+}
+
+.first-child {
+    margin-top: 0;
+}
+
+.text-box {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-box p {
+    direction: rtl;
+    display: inline-block;
+    font-family: Vazir, sans-serif;
+}
+
+.text-box p a {
+    display: inline-block;
+}
+
+.text-box p a:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
