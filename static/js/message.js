@@ -22,7 +22,7 @@ sendButton.addEventListener("click", function () {
             },
             {
               "name": "Title",
-              "value": document.querySelector("body > main > div > article.contact > section > form > div > label:nth-child(3) > input").value
+              "value": document.querySelector("body > main > div > article.contact.active > section > form > label:nth-child(3) > textarea").value
             }
           ],
           "author": {
